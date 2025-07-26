@@ -64,7 +64,7 @@ def game():
             user += y
             print(f'score\nuser:\t\t{user}\ncomputer:\t{computer}')
     except KeyboardInterrupt:
-        print('game interrupted')
+        print('\ngame interrupted')
     finally:
         result = 'user wins' if user > computer else 'computer wins' if user < computer else 'draw'
         print(f'final score:\nuser:\t\t{user}\ncomputer:\t{computer}')
